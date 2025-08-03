@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norys Ndachule - Medical Technology Portfolio</title>
+    <meta name="description" content="Second-year medical student passionate about AI in healthcare systems. Bridging medicine and technology through innovative solutions.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Medical Animations Background -->
+    <div class="bg-animations">
+        <!-- Floating Medical Icons -->
+        <div class="floating-icon" style="top: 10%; left: 5%; animation-delay: -2s;">
+            <i class="fas fa-brain" style="font-size: 2rem; color: var(--medical-blue);"></i>
+        </div>
+        <div class="floating-icon" style="top: 30%; right: 8%; animation-delay: -5s;">
+            <i class="fas fa-heartbeat" style="font-size: 1.5rem; color: var(--medical-cyan);"></i>
+        </div>
+        <div class="floating-icon" style="top: 70%; left: 12%; animation-delay: -8s;">
+            <i class="fas fa-dna" style="font-size: 1.25rem; color: var(--medical-blue);"></i>
+        </div>
+        <div class="floating-icon" style="top: 50%; right: 20%; animation-delay: -4s;">
+            <i class="fas fa-microscope" style="font-size: 1.5rem; color: var(--medical-cyan);"></i>
+        </div>
+        <div class="floating-icon" style="top: 80%; left: 25%; animation-delay: -10s;">
+            <i class="fas fa-pills" style="font-size: 1.25rem; color: var(--medical-blue);"></i>
+        </div>
+        
+        <!-- Subtle Particle Dots -->
+        <div class="floating-dot" style="top: 25%; left: 15%; background: var(--medical-cyan); animation-delay: -3s;"></div>
+        <div class="floating-dot" style="top: 65%; right: 10%; background: var(--medical-blue); animation-delay: -7s;"></div>
+        <div class="floating-dot" style="top: 40%; left: 30%; background: var(--medical-cyan); animation-delay: -5s;"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Name -->
+                <div class="header-logo">
+                    <h1 class="font-orbitron" style="font-size: 1.5rem; font-weight: bold; color: white;">
+                        Norys Ndachule
+                    </h1>
+                    <!-- Beating Heart Logo -->
+                    <div style="font-size: 1.875rem; color: var(--medical-blue);" class="animate-heartbeat">
+                        <i class="fas fa-heartbeat medical-icon"></i>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="header-nav">
+                    <a href="#home" class="medical-btn medical-btn-nav">
+                        <i class="fas fa-home" style="margin-right: 0.5rem;"></i>Home
+                    </a>
+                    <a href="#about" class="medical-btn medical-btn-nav">
+                        <i class="fas fa-user-md" style="margin-right: 0.5rem;"></i>About
+                    </a>
+                    <a href="#skills" class="medical-btn medical-btn-nav">
+                        <i class="fas fa-brain" style="margin-right: 0.5rem;"></i>Skills
+                    </a>
+                    <a href="#journey" class="medical-btn medical-btn-nav">
+                        <i class="fas fa-route" style="margin-right: 0.5rem;"></i>Journey
+                    </a>
+                    <a href="#projects" class="medical-btn medical-btn-nav">
+                        <i class="fas fa-project-diagram" style="margin-right: 0.5rem;"></i>Projects
+                    </a>
+                    <a href="#contact" class="medical-btn medical-btn-nav">
+                        <i class="fas fa-envelope" style="margin-right: 0.5rem;"></i>Contact
+                    </a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-hidden" style="color: var(--medical-cyan); font-size: 1.25rem; background: none; border: none;">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div style="max-width: 64rem;">
+            <!-- Lens Zoom Animation Container -->
+            <div class="animate-lens-zoom">
+                <h1 class="hero-title font-orbitron">
+                    Norys Ndachule
+                </h1>
+            </div>
+
+            <!-- Morphing Tagline -->
+            <div class="animate-morph-text">
+                <p class="hero-subtitle font-jetbrains">
+                    A programming enthusiast leaning towards AI in healthcare systems
+                </p>
+            </div>
+
+            <!-- Description -->
+            <div class="animate-morph-text" style="animation-delay: 4.5s;">
+                <p class="hero-description">
+                    Bridging the gap between medical science and cutting-edge technology. 
+                    Currently developing innovative solutions that enhance patient care through intelligent systems.
+                </p>
+            </div>
+
+            <!-- Metrics Dashboard -->
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-number font-orbitron" style="color: var(--medical-cyan);">4+</div>
+                    <div class="metric-label font-jetbrains">Programming Languages</div>
+                    <div class="ecg-wave"></div>
+                </div>
+                <div class="metric-card" style="animation-delay: 0.5s;">
+                    <div class="metric-number font-orbitron" style="color: var(--medical-blue);">2nd</div>
+                    <div class="metric-label font-jetbrains">Year Medical Student</div>
+                    <div class="ecg-wave"></div>
+                </div>
+                <div class="metric-card" style="animation-delay: 1s;">
+                    <div class="metric-number font-orbitron" style="color: #34d399;">3+</div>
+                    <div class="metric-label font-jetbrains">Completed Projects</div>
+                    <div class="ecg-wave"></div>
+                </div>
+                <div class="metric-card" style="animation-delay: 1.5s;">
+                    <div class="metric-number font-orbitron" style="color: #a855f7;">100%</div>
+                    <div class="metric-label font-jetbrains">System Operational</div>
+                    <div class="ecg-wave"></div>
+                </div>
+            </div>
+
+            <!-- Download CV Button -->
+            <div style="margin-top: 3rem;">
+                <a href="documents/Norys_Ndachule_Wanjala_CV.pdf" target="_blank" class="medical-btn medical-btn-secondary">
+                    <i class="fas fa-download" style="margin-right: 0.75rem;"></i>Download CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container" style="max-width: 72rem;">
+            <!-- Strategic Floating About Card -->
+            <div class="card floating-card" style="margin-bottom: 4rem; max-width: 64rem; margin-left: auto; margin-right: auto;">
+                <div style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+                    <div style="font-size: 2.5rem; color: var(--medical-blue); margin-right: 1rem;" class="medical-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h2 class="font-orbitron" style="font-size: 1.875rem; font-weight: bold; color: white;">About Me</h2>
+                </div>
+                <p style="font-size: 1.125rem; color: #d1d5db; line-height: 1.75;">
+                    I'm a second-year medical student with a passion for leveraging technology to solve healthcare challenges. 
+                    My journey combines rigorous medical education with self-taught programming skills, creating a unique 
+                    perspective on digital health solutions. Currently focused on developing innovative applications that 
+                    bridge the gap between clinical practice and technological advancement. I believe the future of medicine 
+                    lies in intelligent systems that enhance patient care while empowering healthcare professionals.
+                </p>
+            </div>
+
+            <!-- Interests Section -->
+            <div class="interests-grid">
+                <!-- Core Interests -->
+                <div class="card medical-panel">
+                    <h3 class="font-orbitron" style="font-size: 1.5rem; font-weight: bold; color: var(--medical-cyan); margin-bottom: 1.5rem; display: flex; align-items: center;">
+                        <i class="fas fa-brain medical-icon" style="margin-right: 0.75rem;"></i>Core Interests
+                    </h3>
+                    <div style="display: grid; gap: 1rem;">
+                        <div class="interest-item">
+                            <i class="fas fa-network-wired" style="color: var(--medical-cyan); margin-right: 1rem;"></i>
+                            <span style="font-weight: 500;">Neural Interfaces</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-robot" style="color: var(--medical-cyan); margin-right: 1rem;"></i>
+                            <span style="font-weight: 500;">Medical AI</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-dna" style="color: var(--medical-cyan); margin-right: 1rem;"></i>
+                            <span style="font-weight: 500;">Bioinformatics</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-chart-line" style="color: var(--medical-cyan); margin-right: 1rem;"></i>
+                            <span style="font-weight: 500;">Data Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Easter Egg Interests -->
+                <div class="card medical-panel">
+                    <h3 class="font-orbitron" style="font-size: 1.5rem; font-weight: bold; color: #a855f7; margin-bottom: 1.5rem; display: flex; align-items: center;">
+                        <i class="fas fa-egg medical-icon" style="margin-right: 0.75rem;"></i>Easter Eggs
+                    </h3>
+                    <div style="display: grid; gap: 1rem;">
+                        <div class="easter-egg-item interest-item" style="cursor: pointer;">
+                            <i class="fas fa-chess" style="color: #a855f7; margin-right: 1rem;"></i>
+                            <span style="font-weight: 500;">Chess Enthusiast</span>
+                            <a href="https://www.chess.com/member/Amnorous" target="_blank" style="margin-left: auto; font-size: 0.75rem; background: rgba(147, 51, 234, 0.2); padding: 0.25rem 0.75rem; border-radius: 9999px; border: none; color: white; cursor: pointer; text-decoration: none;">Challenge Me</a>
+                        </div>
+                        <div class="easter-egg-item interest-item">
+                            <i class="fas fa-puzzle-piece" style="color: #a855f7; margin-right: 1rem;"></i>
+                            <span style="font-weight: 500;">Puzzle Solver</span>
+                        </div>
+                        <div class="easter-egg-item interest-item music-item" style="cursor: pointer;">
+                            <i class="fas fa-music" style="color: #a855f7; margin-right: 1rem;"></i>
+                            <span style="font-weight: 500;">Music Lover</span>
+                            <!-- Playlist Preview Popup -->
+                            <div class="playlist-preview">
+                                <div class="playlist-title font-jetbrains">🎵 Norys's Coding Playlist</div>
+                                <div class="playlist-song">Daft Punk - One More Time</div>
+                                <div class="playlist-song">Ludovico Einaudi - Nuvole Bianche</div>
+                                <div class="playlist-song">Non Stop - Hamilton</div>
+                                <div class="playlist-song">Max Richter - On The Nature</div>
+                                <div class="playlist-song">Ólafur Arnalds - Near Light</div>
+                                <a href="#" target="_blank" class="playlist-open-btn font-jetbrains">Open Full Playlist</a>
+                            </div>
+                        </div>
+                        <div class="easter-egg-item interest-item">
+                            <i class="fas fa-pen-fancy" style="color: #a855f7; margin-right: 1rem;"></i>
+                            <span style="font-weight: 500;">Creative Writer</span>
+                        </div>
+                        <div class="easter-egg-item interest-item">
+                            <i class="fas fa-rocket" style="color: #a855f7; margin-right: 1rem;"></i>
+                            <span style="font-weight: 500;">SciFi & Mystery Lover</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategic Floating Vitals Card -->
+            <div class="card floating-card">
+                <h3 class="font-orbitron" style="font-size: 1.5rem; font-weight: bold; color: var(--medical-cyan); margin-bottom: 2rem; display: flex; align-items: center;">
+                    <i class="fas fa-heartbeat medical-icon" style="margin-right: 0.75rem;"></i>Vital Signs Monitor
+                </h3>
+                <div class="vitals-grid">
+                    <div class="vital-item">
+                        <div class="vital-info">
+                            <div class="vital-name font-jetbrains">Academic Performance</div>
+                            <div class="vital-status">Optimal Range</div>
+                        </div>
+                        <div class="vital-reading">
+                            <div class="ecg-wave" style="width: 4rem;"></div>
+                            <span class="vital-percentage">98%</span>
+                        </div>
+                    </div>
+                    <div class="vital-item">
+                        <div class="vital-info">
+                            <div class="vital-name font-jetbrains">Coding Proficiency</div>
+                            <div class="vital-status">Excellent Status</div>
+                        </div>
+                        <div class="vital-reading">
+                            <div class="ecg-wave" style="width: 4rem;"></div>
+                            <span class="vital-percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="vital-item">
+                        <div class="vital-info">
+                            <div class="vital-name font-jetbrains">Research Interest</div>
+                            <div class="vital-status">Highly Active</div>
+                        </div>
+                        <div class="vital-reading">
+                            <div class="ecg-wave" style="width: 4rem;"></div>
+                            <span class="vital-percentage">97%</span>
+                        </div>
+                    </div>
+                    <div class="vital-item">
+                        <div class="vital-info">
+                            <div class="vital-name font-jetbrains">Innovation Drive</div>
+                            <div class="vital-status">Maximum Output</div>
+                        </div>
+                        <div class="vital-reading">
+                            <div class="ecg-wave" style="width: 4rem;"></div>
+                            <span class="vital-percentage">100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 1.5rem; text-align: center;">
+                    <div class="status-operational font-jetbrains">
+                        <i class="fas fa-check-circle" style="margin-right: 0.5rem;"></i>
+                        ALL SYSTEMS OPERATIONAL
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container" style="max-width: 72rem;">
+            <div style="text-align: center; margin-bottom: 4rem;">
+                <h2 class="section-title font-orbitron">
+                    <i class="fas fa-brain medical-icon"></i>Technical Expertise
+                </h2>
+                <p class="section-subtitle">Advanced medical and programming technologies</p>
+            </div>
+
+            <div class="grid-2">
+                <!-- Programming Languages - Strategic Floating Card -->
+                <div class="card floating-card">
+                    <h3 class="font-orbitron" style="font-size: 1.5rem; font-weight: bold; color: var(--medical-cyan); margin-bottom: 2rem; display: flex; align-items: center;">
+                        <i class="fas fa-code medical-icon" style="margin-right: 0.75rem;"></i>Programming Languages
+                    </h3>
+                    <div style="display: grid; gap: 1.5rem;">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name font-jetbrains">Python</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="--progress-width: 90%; animation-delay: 0.5s;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name font-jetbrains">JavaScript</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="--progress-width: 85%; animation-delay: 1s;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name font-jetbrains">SQL</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="--progress-width: 80%; animation-delay: 1.5s;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name font-jetbrains">Ruby</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="--progress-width: 75%; animation-delay: 2s;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name font-jetbrains">HTML</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="--progress-width: 95%; animation-delay: 2.5s;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name font-jetbrains">CSS</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="progress-container">
+                                <div class="progress-bar" style="--progress-width: 90%; animation-delay: 3s;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Medical Technologies - Strategic Floating Card -->
+                <div class="card floating-card">
+                    <h3 class="font-orbitron" style="font-size: 1.5rem; font-weight: bold; color: #34d399; margin-bottom: 2rem; display: flex; align-items: center;">
+                        <i class="fas fa-microscope medical-icon" style="margin-right: 0.75rem;"></i>Medical Technologies
+                    </h3>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <i class="fas fa-dna tech-icon"></i>
+                            <div>
+                                <div style="font-weight: 600; margin-bottom: 0.25rem;">Bioinformatics</div>
+                                <div style="font-size: 0.875rem; color: #9ca3af;">Genomic data analysis and processing</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-chart-line tech-icon"></i>
+                            <div>
+                                <div style="font-weight: 600; margin-bottom: 0.25rem;">Health Analytics</div>
+                                <div style="font-size: 0.875rem; color: #9ca3af;">Patient data visualization and insights</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-robot tech-icon"></i>
+                            <div>
+                                <div style="font-weight: 600; margin-bottom: 0.25rem;">ML in Healthcare</div>
+                                <div style="font-size: 0.875rem; color: #9ca3af;">Predictive modeling for medical outcomes</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-mobile-alt tech-icon"></i>
+                            <div>
+                                <div style="font-weight: 600; margin-bottom: 0.25rem;">mHealth Apps</div>
+                                <div style="font-size: 0.875rem; color: #9ca3af;">Mobile health application development</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey" class="section">
+        <div class="container" style="max-width: 72rem;">
+            <div style="text-align: center; margin-bottom: 4rem;">
+                <h2 class="section-title font-orbitron">
+                    <i class="fas fa-route medical-icon"></i>Medical Journey
+                </h2>
+                <p class="section-subtitle">Timeline of education and achievements. Click to view.</p>
+            </div>
+
+            <!-- Circular Timeline -->
+            <div style="display: flex; justify-content: center; margin-bottom: 4rem;">
+                <div class="timeline-center">
+                    <!-- Visible Circle Border -->
+                    <div class="timeline-circle"></div>
+                    
+                    <!-- Center Graduation Cap -->
+                    <div class="timeline-center-icon">
+                        <i class="fas fa-graduation-cap" style="font-size: 1.5rem; color: white;"></i>
+                    </div>
+
+                    <!-- Timeline Years on Circle Circumference -->
+                    <a href="#timeline-2025" class="timeline-year year-2025">2025</a>
+                    <a href="#timeline-2024" class="timeline-year year-2024">2024</a>
+                    <a href="#timeline-2023" class="timeline-year year-2023">2023</a>
+                    <a href="#timeline-2022" class="timeline-year year-2022">2022</a>
+                    <a href="#timeline-2021" class="timeline-year year-2021">2021</a>
+                    <a href="#timeline-2020" class="timeline-year year-2020">2020</a>
+                </div>
+            </div>
+
+            <!-- Current Education -->
+            <div class="card medical-panel" style="margin-bottom: 2rem;">
+                <h3 class="font-orbitron" style="font-size: 1.5rem; font-weight: bold; color: var(--medical-cyan); margin-bottom: 1.5rem; display: flex; align-items: center;">
+                    <i class="fas fa-university medical-icon" style="margin-right: 0.75rem;"></i>Current Education
+                </h3>
+                <div class="education-grid">
+                    <div class="education-card education-medical">
+                        <h4 class="education-title font-jetbrains">Bachelor of Medicine</h4>
+                        <p style="color: var(--medical-cyan); margin-bottom: 0.5rem;">University of Nairobi</p>
+                        <p class="education-description">2nd Year Medical Student</p>
+                        <div class="progress-section">
+                            <div class="progress-header">
+                                <span>Progress</span>
+                                <span style="color: var(--medical-cyan);">30%</span>
+                            </div>
+                            <div class="progress-bar-container">
+                                <div class="progress-medical"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-card education-programming">
+                        <h4 class="education-title font-jetbrains">Self-Taught Programming and PLP Academy</h4>
+                        <p style="color: #34d399; margin-bottom: 0.5rem;">Multiple Platforms</p>
+                        <p class="education-description">Continuous Learning Journey</p>
+                        <div class="progress-section">
+                            <div class="progress-header">
+                                <span>Expertise Level</span>
+                                <span style="color: #34d399;">85%</span>
+                            </div>
+                            <div class="progress-bar-container">
+                                <div class="progress-programming"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CV Download -->
+            <div style="text-align: center;">
+                <div class="card medical-panel" style="display: inline-block;">
+                    <h3 class="font-orbitron" style="font-size: 1.25rem; font-weight: bold; color: white; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-file-medical medical-icon" style="margin-right: 0.75rem;"></i>Professional Curriculum Vitae
+                    </h3>
+                    <p style="color: #9ca3af; margin-bottom: 1.5rem;">Complete background</p>
+                    <a href="documents/Norys_Ndachule_Wanjala_CV.pdf" target="_blank" class="medical-btn medical-btn-primary">
+                        <i class="fas fa-download" style="margin-right: 0.75rem;"></i>Download Full CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container" style="max-width: 72rem;">
+            <div style="text-align: center; margin-bottom: 4rem;">
+                <h2 class="section-title font-orbitron">
+                    <i class="fas fa-project-diagram medical-icon"></i>Projects
+                </h2>
+                <p class="section-subtitle">Innovative healthcare solutions</p>
+            </div>
+
+            <!-- 3 Project Cards Layout -->
+            <div class="projects-grid">
+                <div class="project-card project-card-1">
+                    <div class="project-icon" style="color: var(--medical-blue);">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 class="project-title font-orbitron">Calories Tracker</h3>
+                    <p class="project-description">Real-Time calories tracker as per users food intake</p>
+                    <div class="project-footer">
+                        <span class="project-status status-completed font-jetbrains">Completed</span>
+                        <a href="#" target="_blank" style="color: var(--medical-cyan);">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card project-card-2">
+                    <div class="project-icon" style="color: var(--medical-cyan);">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="project-title font-orbitron">Website Portfolio</h3>
+                    <p class="project-description">Meet Norys!</p>
+                    <div class="project-footer">
+                        <span class="project-status status-completed font-jetbrains">Completed</span>
+                        <a href="#" target="_blank" style="color: var(--medical-cyan);">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card project-card-3">
+                    <div class="project-icon" style="color: #fbbf24;">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <h3 class="project-title font-orbitron">TreeBute</h3>
+                    <p class="project-description">An app for spreading awareness on tree conservation. Join waitlist!</p>
+                    <div class="project-footer">
+                        <span class="project-status status-progress font-jetbrains">Coming Soon!</span>
+                        <a href="#" target="_blank" style="color: var(--medical-cyan);">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <a href="https://github.com/amnorous" target="_blank" class="action-btn action-btn-primary font-jetbrains">
+                    <i class="fas fa-th-large" style="margin-right: 0.75rem;"></i>All Projects
+                </a>
+                <a href="#contact" class="action-btn action-btn-secondary font-jetbrains">
+                    <i class="fas fa-lightbulb" style="margin-right: 0.75rem;"></i>Share Ideas
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container" style="max-width: 64rem;">
+            <div style="text-align: center; margin-bottom: 4rem;">
+                <h2 class="section-title font-orbitron">
+                    <i class="fas fa-satellite-dish medical-icon"></i>Establish Connection
+                </h2>
+                <p class="section-subtitle">Ready to collaborate on healthcare innovation</p>
+            </div>
+
+            <!-- Strategic Floating Contact Form -->
+            <div class="card floating-card contact-form">
+                <form>
+                    <div class="form-grid">
+                        <div>
+                            <label class="form-label font-jetbrains">Full Name</label>
+                            <input type="text" class="medical-input" placeholder="Dr. Norys">
+                        </div>
+                        <div>
+                            <label class="form-label font-jetbrains">Email Address</label>
+                            <input type="email" class="medical-input" placeholder="norys@medai.com">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label font-jetbrains">Subject Category</label>
+                        <select class="medical-input">
+                            <option>Join TreeBute waitlist</option>
+                            <option>Medical AI Collaboration</option>
+                            <option>Healthcare App Development</option>
+                            <option>Research Partnership</option>
+                            <option>Technical Consultation</option>
+                            <option>Career Opportunity</option>
+                            <option>General Inquiry</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label font-jetbrains">Message</label>
+                        <textarea rows="5" class="medical-input" placeholder="Share your ideas for healthcare innovation..."></textarea>
+                    </div>
+
+                    <div style="text-align: center;">
+                        <button type="submit" class="medical-btn medical-btn-primary">
+                            <i class="fas fa-paper-plane" style="margin-right: 0.75rem;"></i>Transmit Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://linkedin.com/in/noryswanjala" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/amnorous" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="mailto:noryswanjala@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p class="font-jetbrains" style="color: var(--medical-text-dim); margin-bottom: 1rem;">
+                &copy; 2025 Norys Ndachule. All systems operational.
+            </p>
+            <div>
+                <div class="status-operational font-jetbrains" style="font-size: 0.875rem;">
+                    <div class="status-dot"></div>
+                    Medical Portfolio System Online
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Timeline Modals -->
+    <!-- 2025 Modal -->
+    <div id="timeline-2025" class="timeline-modal">
+        <div class="timeline-modal-content">
+            <a href="#" class="timeline-modal-close">
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="timeline-modal-header">
+                <div class="timeline-modal-icon">
+                    <i class="fas fa-graduation-cap" style="font-size: 1.5rem; color: white;"></i>
+                </div>
+                <div>
+                    <h2 class="timeline-modal-year font-orbitron">2025</h2>
+                    <p class="timeline-modal-institution font-jetbrains">University of Nairobi</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="timeline-modal-achievement font-orbitron">First & Second Year Medical Studies</h3>
+                <p class="timeline-modal-description">
+                    Pursued Bachelor of Medicine and Surgery, ramping up my intrests in AI intergration in the health care space.
+                </p>
+                <div class="timeline-modal-qualification">
+                    <h4 class="font-jetbrains">Qualification Earned</h4>
+                    <p>Bachelor of Medicine (Expected)</p>
+                </div>
+                <div class="ecg-wave" style="margin-top: 1.5rem;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2024 Modal -->
+    <div id="timeline-2024" class="timeline-modal">
+        <div class="timeline-modal-content">
+            <a href="#" class="timeline-modal-close">
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="timeline-modal-header">
+                <div class="timeline-modal-icon">
+                    <i class="fas fa-microscope" style="font-size: 1.5rem; color: white;"></i>
+                </div>
+                <div>
+                    <h2 class="timeline-modal-year font-orbitron">2024</h2>
+                    <p class="timeline-modal-institution font-jetbrains">Equity Bank, Bungoma </p>
+                </div>
+            </div>
+            <div>
+                <h3 class="timeline-modal-achievement font-orbitron">Internship</h3>
+                <p class="timeline-modal-description">
+                    Interned for six months.
+                </p>
+                <div class="timeline-modal-qualification">
+                    <h4 class="font-jetbrains">Qualification Earned</h4>
+                    <p>Improved my data management skills.</p>
+                </div>
+                <div class="ecg-wave" style="margin-top: 1.5rem;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2023 Modal -->
+    <div id="timeline-2023" class="timeline-modal">
+        <div class="timeline-modal-content">
+            <a href="#" class="timeline-modal-close">
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="timeline-modal-header">
+                <div class="timeline-modal-icon">
+                    <i class="fas fa-code" style="font-size: 1.5rem; color: white;"></i>
+                </div>
+                <div>
+                    <h2 class="timeline-modal-year font-orbitron">2023</h2>
+                    <p class="timeline-modal-institution font-jetbrains">Friends School Kamusinga</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="timeline-modal-achievement font-orbitron">Self-Taught Programing</h3>
+                <p class="timeline-modal-description">
+                    Continued my exploration of Web Development. Started learning Ruby.
+                </p>
+                <div class="timeline-modal-qualification">
+                    <h4 class="font-jetbrains">Qualification Earned</h4>
+                    <p>Advanced Programming Skills</p>
+                </div>
+                <div class="ecg-wave" style="margin-top: 1.5rem;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2022 Modal -->
+    <div id="timeline-2022" class="timeline-modal">
+        <div class="timeline-modal-content">
+            <a href="#" class="timeline-modal-close">
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="timeline-modal-header">
+                <div class="timeline-modal-icon">
+                    <i class="fas fa-book-medical" style="font-size: 1.5rem; color: white;"></i>
+                </div>
+                <div>
+                    <h2 class="timeline-modal-year font-orbitron">2022</h2>
+                    <p class="timeline-modal-institution font-jetbrains">Friends School Kamusinga</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="timeline-modal-achievement font-orbitron">Self-Taught Programming</h3>
+                <p class="timeline-modal-description">
+                    Completed multiple certification courses in data science and web development, 
+                    laying the foundation for future healthcare technology projects.
+                </p>
+                <div class="timeline-modal-qualification">
+                    <h4 class="font-jetbrains">Qualification Earned</h4>
+                    <p>Data science know-how, upskilled my web development skills.</p>
+                </div>
+                <div class="ecg-wave" style="margin-top: 1.5rem;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2021 Modal -->
+    <div id="timeline-2021" class="timeline-modal">
+        <div class="timeline-modal-content">
+            <a href="#" class="timeline-modal-close">
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="timeline-modal-header">
+                <div class="timeline-modal-icon">
+                    <i class="fas fa-laptop-code" style="font-size: 1.5rem; color: white;"></i>
+                </div>
+                <div>
+                    <h2 class="timeline-modal-year font-orbitron">2021</h2>
+                    <p class="timeline-modal-institution font-jetbrains">Online Learning Platforms</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="timeline-modal-achievement font-orbitron">Self-Taught Programming</h3>
+                <p class="timeline-modal-description">
+                    Began learning programming languages including Python, JavaScript, and SQL. 
+                    Completed multiple certification courses in data science and web development, 
+                    laying the foundation for future healthcare technology projects.
+                </p>
+                <div class="timeline-modal-qualification">
+                    <h4 class="font-jetbrains">Qualification Earned</h4>
+                    <p>Multiple Programming Certificates</p>
+                </div>
+                <div class="ecg-wave" style="margin-top: 1.5rem;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2020 Modal -->
+    <div id="timeline-2020" class="timeline-modal">
+        <div class="timeline-modal-content">
+            <a href="#" class="timeline-modal-close">
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="timeline-modal-header">
+                <div class="timeline-modal-icon">
+                    <i class="fas fa-university" style="font-size: 1.5rem; color: white;"></i>
+                </div>
+                <div>
+                    <h2 class="timeline-modal-year font-orbitron">2020</h2>
+                    <p class="timeline-modal-institution font-jetbrains">Friends School Kamusinga</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="timeline-modal-achievement font-orbitron">Medical School Entry</h3>
+                <p class="timeline-modal-description">
+                    Joined Friends School Kamusinga, got introduced to HTML by my computer studies teacher.
+                </p>
+                <div class="timeline-modal-qualification">
+                    <h4 class="font-jetbrains">Qualification Earned</h4>
+                    <p>Ground Knowledge on HTML, Sparked passion for programming.</p>
+                </div>
+                <div class="ecg-wave" style="margin-top: 1.5rem;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
