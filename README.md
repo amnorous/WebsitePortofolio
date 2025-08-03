@@ -1,4 +1,4 @@
-# Norys Ndachule – Medical Technology Portfolio
+# Norys Ndachule – Website Portfolio
 
 Welcome to my personal portfolio, built entirely with HTML and CSS.
 
